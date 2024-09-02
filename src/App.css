@@ -1,0 +1,45 @@
+body {
+  font-family: 'Dosis', sans-serif;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #abc5c5; /* Color de fondo más claro para mejorar la legibilidad */
+  margin: 0;
+  padding: 0;
+}
+
+form input {
+  width: 26vh; /* Considera ajustar el ancho según el diseño */
+  height: 3vh;
+  border-radius: 10px;
+  border: none;
+  padding: 10px;
+  transition: all ease 1s;
+  background-color: #fff; /* Fondo blanco para los campos de entrada */
+  color: #000; /* Color del texto en los campos de entrada */
+}
+
+input::placeholder {
+  color: #888; /* Color del texto del placeholder */
+}
+
+input:focus {
+  outline: none;
+  box-shadow: 1px 1px 1px 1px #4a4343;
+}
+
+form button {
+  margin: 20px;
+  height: 6vh;
+  width: 14vh;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+  transition: all ease .5s;
+  background-color: #007bff; /* Color de fondo para los botones */
+  color: #fff; /* Color de texto para los botones */
+}
+
+form button:hover {
+  background-color: #0056b3; /* Color de fondo para el botón al pasar el cursor */
+}

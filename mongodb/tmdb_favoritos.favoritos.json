@@ -1,0 +1,49 @@
+[{
+  "_id": {
+    "$oid": "66d60d32ee6ab7b32f8a76e1"
+  },
+  "movieId": "123456",
+  "title": "Inception",
+  "posterPath": "/path/to/poster.jpg",
+  "releaseYear": "2010"
+},
+{
+  "_id": {
+    "$oid": "66d60dcbb69fc8c0399903c7"
+  },
+  "movieId": "533535",
+  "title": "Deadpool & Wolverine",
+  "posterPath": "/8cdWjvZQUExUUTzyp4t6EDMubfO.jpg",
+  "releaseYear": "2024",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66d60fccb69fc8c0399903cf"
+  },
+  "movieId": "869944",
+  "title": "Jim Carrey, America Unmasked",
+  "posterPath": "/2J71pg77zt24rKMew0lNX1rJlNz.jpg",
+  "releaseYear": "2021",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66d6169655b2b2caaafa556e"
+  },
+  "movieId": "1865",
+  "title": "Pirates of the Caribbean: On Stranger Tides",
+  "posterPath": "/keGfSvCmYj7CvdRx36OdVrAEibE.jpg",
+  "releaseYear": "2011",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66d619c655b2b2caaafa5575"
+  },
+  "movieId": "597",
+  "title": "Titanic",
+  "posterPath": "/9xjZS2rlVxm8SFx8kPC3aIGCOYQ.jpg",
+  "releaseYear": "1997",
+  "__v": 0
+}]
