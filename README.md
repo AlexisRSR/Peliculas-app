@@ -1,5 +1,7 @@
 # Películas App
 
+enlace de video en como funciona la app: https://youtu.be/LfbzLWlGk0g
+
 ## Descripción
 
 Una aplicación web para buscar películas usando la API de TMDb, ver detalles y marcar películas como favoritas.
@@ -70,5 +72,23 @@ API-main/
 
 
 //Para que Puedas ver las peliculas favoritas debes de conectar la base de datos en mongo db puedes hacerlo importando la carpeta que de llama "compass-connectios.json"
+
+## Importación Manual de Datos en MongoDB
+
+1. **Abrir MongoDB Compass:**
+   - Inicia MongoDB Compass y conecta a tu servidor MongoDB usando la URI `mongodb://localhost:27017`.
+
+2. **Crear la Base de Datos:**
+   - En la esquina superior izquierda, haz clic en "Create Database".
+   - Introduce `mongodb` como nombre de la base de datos.
+
+3. **Importar los Datos:**
+   - Navega hasta la base de datos `mongodb`.
+   - Haz clic en "Import Data" y selecciona la colección en la que deseas importar los datos.
+   - Selecciona el archivo JSON que exportaste desde MongoDB Compass (`C:\Users\ALEXIS SANDOVAL\OneDrive\Documentos\API-main\API-main\mongodb`).
+   - Asegúrate de que el formato de archivo esté configurado como JSON y haz clic en "Import".
+
+4. **Verifica la Importación:**
+   - Después de la importación, revisa que los datos se hayan importado correctamente.
 
 
