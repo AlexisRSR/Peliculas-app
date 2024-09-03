@@ -1,0 +1,27 @@
+{
+  "type": "Compass Connections",
+  "version": {
+    "$numberInt": "1"
+  },
+  "connections": [
+    {
+      "id": "6c72a025-c4d3-4353-836d-702b5b8d938e",
+      "lastUsed": {
+        "$date": {
+          "$numberLong": "1725245374447"
+        }
+      },
+      "favorite": {
+        "name": "TMDb API",
+        "color": "color9"
+      },
+      "savedConnectionType": "favorite",
+      "connectionOptions": {
+        "connectionString": "mongodb://localhost:27017/",
+        "oidc": {
+          "serializedState": "eyJvaWRjUGx1Z2luU3RhdGVWZXJzaW9uIjowLCJzdGF0ZSI6W119"
+        }
+      }
+    }
+  ]
+}
